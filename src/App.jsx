@@ -3,14 +3,13 @@ import Navbar from "./component/Navbar"
 import EmployeeForm from "./component/EmployeeForm"
 import EmployeeCard from './component/EmployeeCard'
 import EmployeeList from './component/EmployeeList'
-import { BrowserRouter,Routes,Route } from "react-router-dom"
+import { BrowserRouter,Routes,Route, HashRouter } from "react-router-dom"
 import ErrorPage from './component/Error'
 // SignUp
 import Home from "./Home"
 import ProtectedRoute from "./component/protectedroute"
 import SignUp from "./auth/signup"
 import Login from "./component/Login"
-Login
 
 
 
