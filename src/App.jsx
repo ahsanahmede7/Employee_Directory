@@ -17,8 +17,8 @@ import Login from "./component/Login"
 
 function App(){
   return(
-    <BrowserRouter>
-    <Navbar/>
+    <HashRouter>
+       <Navbar/>
     <Routes>
     <Route path="/Login" element={<Login/>}></Route>
     <Route path="/Signup" element={<SignUp/>}></Route>
@@ -30,9 +30,7 @@ function App(){
     <Route path="*" element={<ErrorPage/>}></Route>
 
     </Routes>
-    
-    
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 export default App;
